@@ -1,0 +1,2 @@
+#!/bin/bash
+find . -maxdepth 1 -name "*.html" -newer ../$(basename {}) -o -not -path ../ -type f
